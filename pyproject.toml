@@ -1,0 +1,23 @@
+[project]
+name = "geo212-ufba2024-2"
+version = "0.1.0"
+description = "Biblioteca com funções implementadas de Estatística Básica, Séries de Fourier, Transformada Direta e Inversa de Fourier e Convolução. Desenvolvida por estudantes de Geofísica da Universidade Federal da Bahia, como trabalho da disciplina GEO212 à pedido do professor Diego Novais no semestre 2024.2."
+authors = [
+    {name = "Gabriel Vergne Mota, Felipe Lídio Maurício"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
